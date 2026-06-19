@@ -9,18 +9,18 @@
  *
  * Original Table Header:
  *     Signature        "DSDT"
- *     Length           0x00000162 (354)
+ *     Length           0x00000161 (353)
  *     Revision         0x02
- *     Checksum         0x79
+ *     Checksum         0x6E
  *     OEM ID           "SAMSUN"
  *     OEM Table ID     "S5E9830 "
  *     OEM Revision     0x00000003 (3)
- *     Compiler ID      "MSFT"
- *     Compiler Version 0x05000000 (83886080)
+ *     Compiler ID      "INTL"
+ *     Compiler Version 0x20230628 (539166248)
  */
 DefinitionBlock ("", "DSDT", 2, "SAMSUN", "S5E9830 ", 0x00000003)
 {
-    Scope (\_SB)
+    Scope (_SB)
     {
         Device (CPU0)
         {
